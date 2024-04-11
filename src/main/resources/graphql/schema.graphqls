@@ -1,0 +1,8 @@
+type Table {
+    userID :String!
+    messege :String!
+}
+
+type Query {
+    findAllMesseges : [Table]!
+}
